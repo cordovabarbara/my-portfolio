@@ -10,10 +10,9 @@ html{
 
 body{
   margin: 0;
-  font-family: 'Josefin Sans', sans-serif;
-  background: rgb(238,174,202);
-  background: rgb(235,159,255);
-  background: linear-gradient(69deg, rgba(235,159,255,1) 0%, rgba(156,228,217,1) 100%);
+  font-family: 'Orbitron', sans-serif;
+  background: rgb(119,0,215);
+background: linear-gradient(10deg, rgba(119,0,215,1) 5%, rgba(148,241,226,1) 84%);
 }
 
 
@@ -26,7 +25,6 @@ ul li{
   padding-left: 0;
   list-style: none;
 }
-
 
 
 input{
