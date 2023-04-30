@@ -1,11 +1,10 @@
 .navbar {
+  padding-top: 8em;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-
   border-radius: 0.8em;
-  margin-top: 390px;
   
 }
 .navbar__list {
@@ -16,16 +15,19 @@
 }
 
 .navbar__item{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  border-radius: 100%;
+  transition: background 0.3s;
+  
 }
 
 .navbar__item:active{
-  width: 2em;
+  width: 1.8em;
   aspect-ratio:1;
   border-radius: 100%;
-  background: rgb(182,64,134);
-background: radial-gradient(circle, rgba(182,64,134,1) 0%, rgba(156,228,217,1) 94%);
+  background: rgba(196, 86, 152, 0.541);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
 }

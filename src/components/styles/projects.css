@@ -1,0 +1,14 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.projects__title{
+    margin-top: 3em;
+    font-size: xx-large;
+}
+
+.projects__img{
+    width: 300px;
+}

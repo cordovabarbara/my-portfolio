@@ -2,24 +2,40 @@ html{
   scroll-behavior: smooth;
 }
 
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
 body{
+  margin: 0;
   font-family: 'Josefin Sans', sans-serif;
   background: rgb(238,174,202);
   background: rgb(235,159,255);
   background: linear-gradient(69deg, rgba(235,159,255,1) 0%, rgba(156,228,217,1) 100%);
 }
 
-li{
-  text-decoration: none;
+
+h1, h2, h3, h4, p, ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul li{
+  padding-left: 0;
   list-style: none;
+}
+
+
+
+input{
+  outline: none;
+  font-family: inherit;
+}
+
+button{
+  border: none;
+  font-family: inherit;
   cursor: pointer;
 }
-
-.btn{
-
-
-  box-shadow: opx 4.42184px 107.23 rgba(255, 86, 246, 0.51);
-}
-
-
-
