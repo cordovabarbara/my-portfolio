@@ -1,4 +1,6 @@
-
+html{
+  scroll-behavior: smooth;
+}
 
 body{
   font-family: 'Josefin Sans', sans-serif;
@@ -14,29 +16,10 @@ li{
 }
 
 .btn{
-  background: linear-gradient(
-    92.23deg,
-    #ff56f6 21.43%,
-    #b936ee 50.63%,
-    #11aeec 100%,
-    #406aff 117.04%,
-  );
+
 
   box-shadow: opx 4.42184px 107.23 rgba(255, 86, 246, 0.51);
 }
 
-.btn:hover{
-  background: linear-gradient(
-    #406aff 21.43%,
-    #11aeec 50.63%,
-    #b936ee 100%,
-    #ff56f6 117117.04%,
-    
-  )
-}
 
-.active {
-  color: lawngreen;
-  padding: 1rem;
-  border-radius: 100%;
-}
+

@@ -1,8 +1,11 @@
 import React from 'react'
+import {TypeAnimation} from 'react-type-animation'
 
 const Banner = () => {
   return (
-    <div>Banner</div>
+    <div>
+      <h1> Barbara <span>Cordova</span></h1>
+    </div>
   )
 }
 

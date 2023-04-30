@@ -3,13 +3,29 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.377);
+
   border-radius: 0.8em;
   margin-top: 390px;
   
 }
 .navbar__list {
-  font-size: 25px;
   display: flex;
+  flex-direction: row;
   gap: 2em;
+  font-size: 28px;
+}
+
+.navbar__item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar__item:active{
+  width: 2em;
+  aspect-ratio:1;
+  border-radius: 100%;
+  background: rgb(182,64,134);
+background: radial-gradient(circle, rgba(182,64,134,1) 0%, rgba(156,228,217,1) 94%);
+  
 }

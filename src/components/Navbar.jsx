@@ -1,24 +1,36 @@
-import React from 'react'
-import {RxHome} from 'react-icons/rx'
-import {BsBriefcase,BsChatRightText,BsPerson} from 'react-icons/bs'
-import { Link } from 'react-scroll'
-import './styles/navbar.css'
-
-
+import React from "react";
+import { RxHome } from "react-icons/rx";
+import { BsBriefcase, BsChatRightText, BsPerson } from "react-icons/bs";
+import { Link } from "react-scroll";
+import "./styles/navbar.css";
 
 const Navbar = () => {
   return (
-    <div className='navbar'>
-      <Link>
-        <ul className='navbar__list'>
-          <li className='navbar__item'><RxHome/></li>
-          <li className='navbar__item'><BsPerson/></li>
-          <li className='navbar__item'><BsBriefcase/></li>
-          <li className='navbar__item'><BsChatRightText/></li>
-        </ul>
-      </Link>
+    <div className="navbar">
+      <ul className="navbar__list">
+        <Link to='home'>
+          <li className="navbar__item">
+            <RxHome />
+          </li>
+        </Link>
+        <Link to='about'>
+          <li className="navbar__item">
+            <BsPerson />
+          </li>
+        </Link>
+        <Link to='projects'>
+          <li className="navbar__item">
+            <BsBriefcase />
+          </li>
+        </Link>
+        <Link to='contact'>
+          <li className="navbar__item">
+            <BsChatRightText />
+          </li>
+        </Link>
+      </ul>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
