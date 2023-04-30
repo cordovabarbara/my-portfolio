@@ -1,7 +1,28 @@
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+    font-size: 26px;
+
+}
+
 .title__banner{
-    color: rgb(112, 68, 170);
+    color: rgb(221, 37, 181);
+}
+
+.title__span{
+    color: rgb(9, 189, 174);
 }
 
 h3{
-    color: rgb(240, 109, 190);
+    color: rgb(131, 71, 170);
+    font-size: 17px;
+    padding-top: 1em;
+}
+
+.banner_img{
+    padding-top: 2em;
+    width: 300px;
 }

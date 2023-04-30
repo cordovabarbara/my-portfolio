@@ -1,19 +1,23 @@
 import React from 'react'
 import {TypeAnimation} from 'react-type-animation'
 import "./styles/banner.css";
+import img from '/public/img.jpg'
 
 const Banner = () => {
   return (
-    <div>
-      <h1 className='title__banner'> Barbara <span>Cordova</span></h1>
-      <TypeAnimation
-        sequence={[
-          'Soy, desarrollador Front-end.',
-          500,
-        ]}
-        wrapper="h3"
-        repeat={Infinity}
-        />
+    <div className='banner'>
+      <h1 className='title__banner'> Barbara <span className='title__span'>Cordova</span></h1><div/>
+          <TypeAnimation
+            sequence={[
+            'En la meta de ser una desarrolladora web.',
+            2000,
+            'Bienvenido a mi portafolio.',
+            2000,
+            ]}
+            wrapper="h3"
+            repeat={Infinity}
+          />
+      <img className='banner_img' src={img} alt=''></img>
     </div>
   )
 }
