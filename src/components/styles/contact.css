@@ -13,7 +13,7 @@
     width: 400px;
     display: flex;
     flex-direction: column;
-    margin-top: 2em;
+    margin-top: 1em;
     gap:2em;
 }
 
@@ -27,4 +27,18 @@
 
 .input__msj{
     height: 100px;
+}
+
+.btn__submit{
+    width:auto;
+    font-weight: bold;
+    padding: 1em;
+    border-radius: 5em;
+    background: rgb(74,226,214);
+    background: radial-gradient(circle, rgb(74, 226, 218) 13%, rgb(208, 72, 241) 100%);
+}
+
+.btn__submit:hover{
+
+    color: rgb(221, 37, 181);
 }

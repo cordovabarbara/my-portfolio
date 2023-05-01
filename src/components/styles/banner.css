@@ -18,11 +18,37 @@
 
 h3{
     color: rgb(131, 71, 170);
-    font-size: 17px;
+    font-size: 20px;
     padding-top: 1em;
 }
 
 .banner_img{
     padding-top: 2em;
     width: 300px;
+}
+
+@media (min-width: 767px){
+    .banner{
+        display: flex;
+        flex-direction: row;
+        gap: 2em;
+    }
+
+    .title__animation{
+        display: flex;
+        gap: 1em;
+        position: absolute;
+        margin-top: 0.2em;
+        margin-right: 20em;
+    }
+
+    .title__banner{
+        margin-bottom: 3em;
+        display: flex;
+        gap: 0.5em;
+    }
+
+    .banner_img{
+        width: 400px;
+    }
 }

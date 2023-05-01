@@ -7,6 +7,7 @@ const Banner = () => {
   return (
     <div className='banner'>
       <h1 className='title__banner'> Barbara <span className='title__span'>Cordova</span></h1><div/>
+          <div className='title__animation'>
           <TypeAnimation
             sequence={[
             'En la meta de ser una desarrolladora web.',
@@ -17,6 +18,7 @@ const Banner = () => {
             wrapper="h3"
             repeat={Infinity}
           />
+          </div>
       <img className='banner_img' src={img} alt=''></img>
     </div>
   )

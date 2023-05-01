@@ -9,7 +9,7 @@ const Contact = () => {
         <input className="input__name" type="text" placeholder="tu nombre"></input>
         <input className="input__email" type="email" placeholder="tu correo"></input>
         <input className="input__msj" type="text" placeholder="tu mensaje" ></input>
-        <button>Submit</button>
+        <button className="btn__submit">Submit</button>
       </form>
       
     </div>

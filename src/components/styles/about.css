@@ -1,9 +1,17 @@
 .about{
     display: flex;
     flex-direction: column;
-    margin-top: 3em;
+    padding: 6em;
     justify-content: center;
     align-items: center;
+}
+
+.title__about{
+    color: rgb(221, 37, 181);
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    margin-top: 2em;
 }
 
 .about__p{
