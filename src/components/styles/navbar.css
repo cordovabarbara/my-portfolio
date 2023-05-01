@@ -1,34 +1,33 @@
+
+
 .navbar {
-  padding-top: 5em;
+  margin-top: 2em;
+  position: sticky;
+  bottom: 1em;
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-items: center;
-  border-radius: 0.8em;
-  
+  flex-wrap: wrap;
+ 
 }
 .navbar__list {
+  padding: 0.5em;
+  border-radius: 0.8em;
   display: flex;
-  flex-direction: row;
-  gap: 2em;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5em;
   font-size: 28px;
+  backdrop-filter: blur(30px);
 }
 
 .navbar__item{
-
-  border-radius: 100%;
-  transition: background 0.3s;
-  
-}
-
-.navbar__item:active{
-  width: 1.8em;
-  aspect-ratio:1;
-  border-radius: 100%;
-  background: rgba(196, 86, 152, 0.541);
-  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  border-radius: 100%;
+  transition: color 0.5s;
+}
+
+.navbar__item:hover{
+  color: #ffff;
 }

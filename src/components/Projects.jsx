@@ -10,9 +10,11 @@ const Projects = () => {
   return (
     <div className='projects' id='projects'>
       <span className='projects__title'>Projects</span>
+      <div className='projects__box'>
       <img className='projects__img' src={proyect1} alt=''/>
       <img className='projects__img'src={proyecto} alt=''/>
       <img className='projects__img'src={entregable} alt=''/>
+      </div>
     </div>
   )
 }

@@ -1,16 +1,17 @@
-import React from "react";
+
 import { RxHome } from "react-icons/rx";
+import { VscChecklist } from "react-icons/vsc";
 import { BsBriefcase, BsChatRightText, BsPerson } from "react-icons/bs";
 import { Link } from "react-scroll";
 import "./styles/navbar.css";
 
 const Navbar = () => {
   return (
-    <div className="navbar">
-      <ul className="navbar__list">
-        <Link to='home'>
-          <li className="navbar__item">
-            <RxHome />
+  <div className="navbar">
+    <ul className="navbar__list">
+      <Link to='home'>
+        <li className="navbar__item">
+          <RxHome />
           </li>
         </Link>
         <Link to='about'>
@@ -22,6 +23,11 @@ const Navbar = () => {
           <li className="navbar__item">
             <BsBriefcase />
           </li>
+          </Link>
+          <Link to='skills'>
+          <li className="navbar__item">
+            <VscChecklist />
+          </li>
         </Link>
         <Link to='contact'>
           <li className="navbar__item">
@@ -30,7 +36,7 @@ const Navbar = () => {
         </Link>
       </ul>
     </div>
-  );
-};
+  )
+}
 
 export default Navbar;

@@ -1,0 +1,17 @@
+.header{
+    margin-top: -1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.btn__contact{
+    padding: 1em;
+    border-radius: 5em;
+    background: rgb(74,226,214);
+    background: radial-gradient(circle, rgba(74,226,214,1) 13%, rgba(188,148,241,1) 100%);
+}
+
+.btn__contact:hover{
+    color: white;
+}

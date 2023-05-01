@@ -12,7 +12,7 @@ body{
   margin: 0;
   font-family: 'Orbitron', sans-serif;
   background: rgb(119,0,215);
-background: linear-gradient(10deg, rgba(119,0,215,1) 5%, rgba(148,241,226,1) 84%);
+  background: linear-gradient(10deg, rgba(119,0,215,1) 5%, rgba(148,241,226,1) 84%);
 }
 
 

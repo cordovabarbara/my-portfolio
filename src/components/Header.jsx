@@ -1,9 +1,12 @@
-import React from 'react'
+import "./styles/header.css";
+import { Link } from "react-scroll";
 
 const Header = () => {
   return (
-    <div id='home'>
-      <button className=''>Contactame</button>
+    <div className="header" id='home'>
+      <Link to='contact'>
+      <button className='btn__contact'>Contactame</button>
+       </Link>
     </div>
   )
 }

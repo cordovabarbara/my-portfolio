@@ -1,0 +1,101 @@
+.skills__box{
+    padding: 6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+   
+}
+
+.skills__general{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+
+.title__sk{
+    color: rgb(221, 37, 181);
+    letter-spacing: 0.2em;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.second__title{
+    margin-top: 0.2em;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.2em;
+}
+
+.icon__html{
+    font-family:'Orbitron', sans-serif;
+}
+
+.bx__html{
+    display: flex;
+    background-color: #D34C2D;
+    align-items: center;
+    justify-content: center;
+    width: 115px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #ffffff;
+    
+}
+
+.bxl-html5{
+    font-size: 22px;
+    color:#ffffff;
+}
+
+.bx__css{
+    display: flex;
+    background-color: #2071F2;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #ffffff;
+    
+}
+
+.bxl-css3{
+    font-size: 22px;
+    color:#ffffff;
+}
+
+.bx__js{
+    display: flex;
+    background-color: #F2C200;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #ffffff;
+    
+}
+
+
+.bx__react{
+    display: flex;
+    background-color: #1297C3;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.bxl-react{
+    font-size: 22px;
+    color:#ffffff;
+}
