@@ -17,7 +17,8 @@
   align-items: center;
   gap: 1.5em;
   font-size: 28px;
-  backdrop-filter: blur(30px);
+  backdrop-filter: blur(50px);
+  background-color: rgba(168, 168, 168, 0.123);
 }
 
 .navbar__item{

@@ -6,7 +6,13 @@ const About = () => {
     <div id='about' className='about'>
       <h1 className='title__about'>Sobre Mi</h1>
     <p className='about__p'>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    Soy Barbara Córdova, oriunda de Caracas, Venezuela, y actualmente resido en Bogotá, Colombia. Me gradué de la Universidad Simón Rodríguez con un título en administracion mención informática, pero nunca ejercí la profesión. Sin embargo, siempre he tenido un gran interés en la tecnología y actualmente me estoy enfocando en el desarrollo de aplicaciones web.
+
+    Tengo conocimientos en diversos lenguajes de programación, incluyendo JavaScript, HTML, CSS y React, y disfruto creando aplicaciones web que mejoren la experiencia de los usuarios. En particular, me gustaría especializarme en el desarrollo de aplicaciones móviles en el futuro.
+
+    Cuando no estoy programando, me gusta explorar mi entorno y descubrir nuevos lugares en la ciudad. Visitar museos y tomar fotografias, son unas de mis actividades favoritas.
+
+    En resumen, me considero una persona curiosa y apasionada por la tecnología, el arte y el aprendizaje constante, y estoy emocionada por lo que el futuro me depara.
     </p>
     </div>
   )
