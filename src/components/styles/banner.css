@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 1em;
-    font-size: 26px;
+    padding-top: 0.8em;
+    font-size: 22px;
 
 }
 
@@ -18,13 +18,13 @@
 
 h3{
     color: rgb(131, 71, 170);
-    font-size: 20px;
-    padding-top: 1em;
+    font-size: 17px;
+    padding-top: 3em;
 }
 
 .banner_img{
-    padding-top: 2em;
-    width: 300px;
+    padding-top: 3em;
+    width: 350px;
 }
 
 @media (min-width: 767px){
