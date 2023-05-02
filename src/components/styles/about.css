@@ -1,12 +1,12 @@
 .about{
     display: flex;
     flex-direction: column;
-    padding: 2em;
     justify-content: center;
     align-items: center;
     text-align: center;
     word-spacing: 0.4em;
     line-height: 1.7rem;
+    padding: 2em;
 }
 
 .title__about{
@@ -19,7 +19,6 @@
 }
 
 .about__p{
-
     width: 400px;
     padding: 1em;
 }

@@ -16,6 +16,29 @@
     color: rgb(9, 189, 174);
 }
 
+.icons__banner{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    gap: 0.5em;
+    margin-top: 0.5em;
+    color:  rgb(77, 1, 177);
+
+}
+
+.bxl-github:hover{
+    color: #ffffff;
+    
+}
+
+.bxl-linkedin-square:hover{
+    color: #ffffff;
+}
+
+.bxl-gmail:hover{
+    color: #ffffff;
+}
+
 h3{
     color: rgb(131, 71, 170);
     font-size: 17px;
@@ -34,12 +57,23 @@ h3{
         gap: 2em;
     }
 
+    .icons__banner{
+        display: flex;
+        position: absolute;
+        margin-bottom: 1em;
+        padding-right: 12.5em;
+    }
+
     .title__animation{
         display: flex;
-        gap: 1em;
+        gap: 1.5em;
         position: absolute;
-        margin-top: 0.2em;
-        margin-right: 20em;
+        margin-top: 1.5em;
+        margin-right: 22em;
+    }
+
+    h3{
+        font-size: 20px;
     }
 
     .title__banner{
