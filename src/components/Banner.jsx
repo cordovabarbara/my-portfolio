@@ -16,7 +16,7 @@ const Banner = () => {
           <div className='title__animation'>
           <TypeAnimation
             sequence={[
-            'En la meta de ser una desarrolladora web.',
+            'Desarrolladora Web Full-Stack.',
             2000,
             'Bienvenido a mi portafolio.',
             2000,

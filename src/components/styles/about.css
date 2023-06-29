@@ -17,7 +17,13 @@
     margin-top: 2em;
     text-transform:uppercase;
 }
-
+.about__txt{
+    margin-top: 2em;
+    padding-right: 12em;
+    padding-left: 12em;
+    padding-bottom: 2em;
+    text-align: justify;
+}
 .about__p{
     width: 400px;
     padding: 1em;

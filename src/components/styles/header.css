@@ -6,6 +6,7 @@
 }
 
 .btn__contact{
+    letter-spacing: 3px;
     padding: 1em;
     border-radius: 5em;
     background: rgb(74,226,214);
@@ -14,4 +15,24 @@
 
 .btn__contact:hover{
     color: white;
+}
+.btn__contact:hover{
+    animation-name: tilt;
+  animation-duration: .4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-direction: alternate;
+  animation-iteration-count: 3s;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+@keyframes tilt {
+  0%,
+  100% {
+    
+  }
+  50% {
+    transform: rotate(15deg);
+  }
 }
