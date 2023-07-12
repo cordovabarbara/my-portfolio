@@ -32,6 +32,10 @@ input{
   font-family: inherit;
 }
 
+a{
+  color:inherit;
+}
+
 button{
   border: none;
   font-family: inherit;

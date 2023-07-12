@@ -22,10 +22,23 @@ const Skills = () => {
                 </div>
             </div>
             <span className="second__title">Frameworks y Librerias</span>
+            <div className="skills__general">
             <div className="bx__react">
             <i class='bx bxl-react'></i>
                 React
             </div>
+            <div className="bx__redux">
+            <i class='bx bxl-redux'></i>
+                Redux
+            </div>
+            </div>
+
+            <span className="second__title">Otras Tecnologías</span>
+            <div className="bx__git">
+            <i class='bx github2 bxl-github'></i>
+                GitHub
+            </div>
+
         </div>
     );
 };

@@ -80,9 +80,8 @@
     border-radius: 10px;
     font-size: 15px;
     color: #ffffff;
-    
+    gap: 0.2em;
 }
-
 
 .bx__react{
     display: flex;
@@ -94,9 +93,45 @@
     border-radius: 10px;
     font-size: 15px;
     color: #ffffff;
+    gap: 0.2em;
 }
 
 .bxl-react{
+    font-size: 22px;
+    color:#ffffff;
+}
+
+.bx__redux{
+    display: flex;
+    color: #ffffff;
+    background-color: #533386;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    gap: 0.2em;
+}
+
+.bxl-redux{
+    font-size: 22px;
+    color:#ffffff;
+}
+.bx__git{
+    display: flex;
+    color: #ffffff;
+    background-color: #000000;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    gap: 0.2em;
+}
+
+.github2{
     font-size: 22px;
     color:#ffffff;
 }
