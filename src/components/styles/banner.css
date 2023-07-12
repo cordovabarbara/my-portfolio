@@ -3,9 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 3em;
     font-size: 25px;
-
 }
 
 .title__banner{
@@ -22,7 +20,6 @@
     align-items: center;
     font-size: 40px;
     gap: 0.7em;
-    margin-top: 1em;
     color:  rgb(77, 1, 177);
 }
 
@@ -130,31 +127,28 @@ h3{
 
 
 .banner_img{
-    padding-top: 3.5em;
     width: 385px;
 }
 
 @media (min-width: 767px){
     .banner{
+        width: 100%;
         display: flex;
         flex-direction: row;
-        gap: 1em;
-        margin-top: -3em;
+        margin-top: 1em;
+        justify-content: space-evenly;
     }
-
-    .icons__banner{
-        display: flex;
-        position: absolute;
-        margin-bottom: 0.6em;
-        padding-right: 2em;
+    .banner__2{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5em;
     }
-
 
     .title__animation{
-        display: flex;
-        margin-top: -6em;
-        margin-left: 14em;
-        gap: 1.5em;
+        position: absolute;
+        margin-top: 6em;
     }
 
     h3{
@@ -162,13 +156,13 @@ h3{
     }
 
     .title__banner{
-        margin-bottom: 3em;
         display: flex;
         gap: 0.5em;
     }
 
     .banner_img{
-        width: 340px;
-        margin-right: -13em;
+      margin-top: 1em;
+      margin-left: 2em;
+      width: 360px;
     }
 }

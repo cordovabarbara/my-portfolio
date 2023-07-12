@@ -6,7 +6,6 @@
     text-align: center;
     word-spacing: 0.4em;
     line-height: 1.7rem;
-    padding: 2em;
 }
 
 .title__about{
@@ -14,7 +13,7 @@
     font-size: 28px;
     font-weight: bold;
     letter-spacing: 0.2em;
-    margin-top: 4em;
+    margin-top: 3.8em;
     text-transform:uppercase;
 }
 .about__txt{

@@ -7,34 +7,34 @@ const Banner = () => {
   return (
     <>
     <div className='banner'>
+      <div className='banner__2'>
       <h1 className='title__banner'> Barbara <span className='title__span'>Cordova</span></h1>
-        
-      <div/>
-          <div className='icons__banner'>
+      <div className='icons__banner'>
           <a href='https://github.com/cordovabarbara'><i class='bx bxl-github1 bxl-github'></i></a>
           <a href='https://linkedin.com/in/barbara-cordova-aliendo'><i class='bx bxl-linkedin-square'></i></a>
           <a href='mailto:aliendocordova@gmail.com'><i class='bx bxl-gmail' ></i></a>
           <i class='bx bx-file'></i>
-          </div>
-          <img className='banner_img' src={img1} alt=''></img>
-    </div>
-    <div className='title__animation'>
+          <div className='title__animation'>
           <TypeAnimation
             sequence={[
             'Desarrolladora Web.',
-            3500,
+            2000,
             'Bienvenido a mi portafolio.',
-            3000,
+            2000,
             'Explora mi portafolio.',
-            3500,
+            2000,
             'Empezemos un nuevo proyecto',
-            3500,
+            2000,
             ]}
             wrapper="h3"
             repeat={Infinity}
           />
-          
           </div>
+          </div>
+          </div>
+          <img className='banner_img' src={img1} alt=''></img>
+      </div>
+
           
     </>
 
