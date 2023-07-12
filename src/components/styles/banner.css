@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 1em;
-    font-size: 22px;
+    padding-top: 3em;
+    font-size: 25px;
 
 }
 
@@ -20,11 +20,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 43px;
-    gap: 0.6em;
-    margin-top: 1.2em;
+    font-size: 40px;
+    gap: 0.7em;
+    margin-top: 1em;
     color:  rgb(77, 1, 177);
-    margin-left: 2em;
 }
 
 .bxl-github1:hover{
@@ -122,37 +121,44 @@
 
 h3{
     color: rgb(131, 71, 170);
-    margin-top: -4em;
+   
+}
+.title__animation{
+  margin-top: 3em;
+  font-size: 22px;
 }
 
+
 .banner_img{
-    padding-top: 3em;
-    width: 350px;
+    padding-top: 3.5em;
+    width: 385px;
 }
 
 @media (min-width: 767px){
     .banner{
         display: flex;
         flex-direction: row;
-        gap: 2em;
+        gap: 1em;
+        margin-top: -3em;
     }
 
     .icons__banner{
         display: flex;
         position: absolute;
-        margin-bottom: 1em;
-        padding-right: 12.5em;
+        margin-bottom: 0.6em;
+        padding-right: 2em;
     }
 
 
     .title__animation{
         display: flex;
+        margin-top: -6em;
+        margin-left: 14em;
         gap: 1.5em;
-        margin-right: 22em;
     }
 
     h3{
-        font-size: 25px;
+        font-size: 35px;
     }
 
     .title__banner{
@@ -162,7 +168,7 @@ h3{
     }
 
     .banner_img{
-        width: 382px;
-        margin-right: -3em;
+        width: 340px;
+        margin-right: -13em;
     }
 }

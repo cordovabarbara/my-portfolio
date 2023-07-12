@@ -34,12 +34,17 @@ const Skills = () => {
             </div>
 
             <span className="second__title">Otras Tecnologías</span>
+            <div className="skills__general">
             <div className="bx__git">
             <i class='bx github2 bxl-github'></i>
                 GitHub
             </div>
-
+            <div className="bx__pgAdm">
+                <i class='bx bxl-postgresql'></i>
+                PostgreSQL
+            </div>
         </div>
+    </div>
     );
 };
 

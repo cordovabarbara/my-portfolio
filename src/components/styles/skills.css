@@ -75,7 +75,7 @@
     background-color: #F2C200;
     align-items: center;
     justify-content: center;
-    width: 110px;
+    width: 120px;
     height: 30px;
     border-radius: 10px;
     font-size: 15px;
@@ -132,6 +132,23 @@
 }
 
 .github2{
+    font-size: 22px;
+    color:#ffffff;
+}
+
+.bx__pgAdm{
+    display: flex;
+    color: #ffffff;
+    background-color: rgb(47,97,136);
+    align-items: center;
+    justify-content: center;
+    width: 122px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 13px;
+    gap: 0.2em;
+}
+.bxl-postgresql{
     font-size: 22px;
     color:#ffffff;
 }
