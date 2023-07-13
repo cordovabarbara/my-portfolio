@@ -3,7 +3,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 22px;
+    margin-top: 1.8em;
+}
+.banner__2{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
 
 .title__banner{
@@ -19,7 +25,7 @@
     justify-content: center;
     align-items: center;
     font-size: 40px;
-    gap: 0.7em;
+    gap: 1em;
     color:  rgb(77, 1, 177);
 }
 
@@ -121,13 +127,15 @@ h3{
    
 }
 .title__animation{
-  margin-top: 3em;
+  margin-top: 6.5em;
   font-size: 22px;
+  position: absolute;
+  
 }
 
-
-.banner_img{
-    width: 385px;
+.banner__img{
+  margin-top: 5em;
+    width: 380px;
 }
 
 @media (min-width: 767px){
@@ -160,7 +168,7 @@ h3{
         gap: 0.5em;
     }
 
-    .banner_img{
+    .banner__img{
       margin-top: 1em;
       margin-left: 2em;
       width: 360px;
