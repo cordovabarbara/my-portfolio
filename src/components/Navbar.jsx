@@ -12,18 +12,21 @@ const Navbar = () => {
       <Link to='home'>
         <li className="navbar__item">
           <RxHome />
-          </li>
-        </Link>
+        </li>
+      </Link>
+
         <Link to='about'>
           <li className="navbar__item">
-            <BsPerson />
+            <BsPerson/>
           </li>
         </Link>
-        <Link to='about'>
-        <li className="navbar__item">
-        <BsTrophy/>
-        </li>
+
+        <Link to='Certificacions'>
+          <li className="navbar__item">
+            <BsTrophy/>
+          </li>
         </Link>
+
         <Link to='projects'>
           <li className="navbar__item">
             <BsBriefcase />

@@ -5,6 +5,7 @@ import Header from './components/Header'
 import Banner from './components/Banner'
 import Navbar from './components/Navbar'
 import About from './components/About'
+import Certificacions from './components/Certifications'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
 
@@ -15,6 +16,7 @@ function App() {
     <Header/>
     <Banner />
     <About />
+    <Certificacions/>
     <Projects/>
     <Skills/>
     <Contact/>

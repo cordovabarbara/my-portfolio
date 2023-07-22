@@ -43,6 +43,10 @@ const Skills = () => {
                 <i class='bx bxl-postgresql'></i>
                 PostgreSQL
             </div>
+            <div className="bx__node">
+                <i class='bx bxl-nodejs'></i>
+                Node.js
+            </div>
         </div>
     </div>
     );
