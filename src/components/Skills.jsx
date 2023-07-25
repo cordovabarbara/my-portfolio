@@ -7,28 +7,28 @@ const Skills = () => {
             <span className="second__title">Lenguajes de Programación</span>
             <div className="skills__general">
                 <div className="bx__html">
-                    <i class="bx bxl-html5"></i>
+                    <i className="bx bxl-html5"></i>
                     HTML5
                 </div>
 
                 <div className="bx__css">
-                    <i class="bx bxl-css3"></i>
+                    <i className="bx bxl-css3"></i>
                     CSS
                 </div>
 
                 <div className="bx__js">
-                    <i class="bx bxl-javascript"></i>
+                    <i className="bx bxl-javascript"></i>
                     Javascript
                 </div>
             </div>
             <span className="second__title">Frameworks y Librerias</span>
             <div className="skills__general">
             <div className="bx__react">
-            <i class='bx bxl-react'></i>
+            <i className='bx bxl-react'></i>
                 React
             </div>
             <div className="bx__redux">
-            <i class='bx bxl-redux'></i>
+            <i className='bx bxl-redux'></i>
                 Redux
             </div>
             </div>
@@ -36,15 +36,15 @@ const Skills = () => {
             <span className="second__title">Otras Tecnologías</span>
             <div className="skills__general">
             <div className="bx__git">
-            <i class='bx github2 bxl-github'></i>
+            <i className='bx github2 bxl-github'></i>
                 GitHub
             </div>
             <div className="bx__pgAdm">
-                <i class='bx bxl-postgresql'></i>
+                <i className='bx bxl-postgresql'></i>
                 PostgreSQL
             </div>
             <div className="bx__node">
-                <i class='bx bxl-nodejs'></i>
+                <i className='bx bxl-nodejs'></i>
                 Node.js
             </div>
         </div>

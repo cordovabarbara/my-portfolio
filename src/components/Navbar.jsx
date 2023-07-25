@@ -15,7 +15,7 @@ const Navbar = () => {
         </li>
       </Link>
 
-        <Link to='sobre mi'>
+        <Link to='sobre-mi'>
           <li className="navbar__item">
             <BsPerson/>
           </li>
