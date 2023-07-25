@@ -14,14 +14,14 @@
     font-size: 28px;
     font-weight: bold;
     letter-spacing: 0.2em;
-    margin-top: 6em;
-    margin-bottom: 2em;
+    margin-top: 5em;
     text-transform:uppercase;
+    padding-top: 1em;
 }
 
 .about__img{
     width: 250px;
-    gap: 2em;
+    gap: 2.5em;
 }
 
 .about__txt{
@@ -31,4 +31,5 @@
     text-align: justify;
     word-spacing: 0.4em;
     line-height: 1.7rem;
+    margin-top: 2.5em;
 }
