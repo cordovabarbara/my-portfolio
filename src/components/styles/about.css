@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 2em;
+    gap: 3em;
 }
 
 .title__about{
@@ -14,13 +14,13 @@
     font-size: 28px;
     font-weight: bold;
     letter-spacing: 0.2em;
-    margin-top: 5em;
+    margin-top: 6em;
     text-transform:uppercase;
     padding-top: 1em;
 }
 
 .about__img{
-    width: 250px;
+    width: 270px;
     gap: 2.5em;
     opacity: 0;
     transform: translateX(50px);
@@ -28,13 +28,13 @@
 }
 
 .about__txt{
-    width: 660px;
+    width: 630px;
     justify-content: center;
     align-items: center;
     text-align: justify;
-    word-spacing: 0.4em;
-    line-height: 1.9rem;
-    margin-top: 2.5em;
+    word-spacing: 0.6em;
+    line-height: 2rem;
+    margin-top: 3em;
     opacity: 0;
     transform: translateX(60px);
     transition: opacity 0.5s ease, transform 0.5s ease;
