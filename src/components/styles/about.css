@@ -1,9 +1,11 @@
 .about{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 3em;
+    gap: 2em;
+
 }
 
 .title__about{
@@ -17,24 +19,25 @@
     margin-top: 6em;
     text-transform:uppercase;
     padding-top: 1em;
+   
 }
 
 .about__img{
+    margin-top: 2em;
     width: 270px;
-    gap: 2.5em;
     opacity: 0;
     transform: translateX(50px);
     transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
 .about__txt{
-    width: 630px;
+    width: 620px;
     justify-content: center;
     align-items: center;
     text-align: justify;
     word-spacing: 0.6em;
     line-height: 2rem;
-    margin-top: 3em;
+    margin-top: 1.5em;
     opacity: 0;
     transform: translateX(60px);
     transition: opacity 0.5s ease, transform 0.5s ease;
