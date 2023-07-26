@@ -2,6 +2,11 @@ import React from 'react'
 import {TypeAnimation} from 'react-type-animation'
 import "./styles/banner.css";
 import img1 from '/public/img1.png'
+import CVBarbaraCordova from '/public/CVBarbaraCordova.pdf'
+
+const openCVInNewWindow = () => {
+  window.open(CVBarbaraCordova, '_blank');
+};
 
 const Banner = () => {
   return (
@@ -13,7 +18,7 @@ const Banner = () => {
           <a href='https://github.com/cordovabarbara'><i class='bx bxl-github1 bxl-github'></i></a>
           <a href='https://linkedin.com/in/barbara-cordova-aliendo'><i class='bx bxl-linkedin-square'></i></a>
           <a href='mailto:aliendocordova@gmail.com'><i class='bx bxl-gmail' ></i></a>
-          <i class='bx bx-file'></i>
+          <i className='bx bx-file' onClick={openCVInNewWindow}></i>
           <div className='title__animation'>
           <TypeAnimation
             sequence={[
