@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 2em;
+    gap: 3em;
 
 }
 
@@ -24,23 +24,25 @@
 
 .about__img{
     margin-top: 2em;
-    width: 270px;
+    width: 280px;
     opacity: 0;
-    transform: translateX(50px);
-    transition: opacity 0.8s ease, transform 0.8s ease;
+    transform: translateX(70px);
+    transition: opacity 0.5s ease, transform 0.8s ease;
 }
 
 .about__txt{
-    width: 620px;
+    width: 600px;
     justify-content: center;
     align-items: center;
     text-align: justify;
     word-spacing: 0.6em;
     line-height: 2rem;
-    margin-top: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 3em;
+
     opacity: 0;
-    transform: translateX(60px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
+    transform: translateX(70px);
+    transition: opacity 0.5s ease, transform 0.6s ease;
 }
 
 .about__txt.visible,

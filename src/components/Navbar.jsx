@@ -20,7 +20,11 @@ const Navbar = () => {
             <BsPerson/>
           </li>
         </Link>
-
+        <Link to='skills'>
+          <li className="navbar__item">
+            <VscChecklist />
+          </li>
+        </Link>
         <Link to='Certificacions'>
           <li className="navbar__item">
             <BsTrophy/>
@@ -32,11 +36,6 @@ const Navbar = () => {
             <BsBriefcase />
           </li>
           </Link>
-          <Link to='skills'>
-          <li className="navbar__item">
-            <VscChecklist />
-          </li>
-        </Link>
         <Link to='contact'>
           <li className="navbar__item">
             <BsChatRightText />
