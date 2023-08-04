@@ -34,7 +34,7 @@ const Skills = () => {
             </div>
 
             <span className="second__title">Otras Tecnologías</span>
-            <div className="skills__general" data-aos="flip-right">
+            <div className="skills__general" data-aos="flip-left">
             <div className="bx__git">
             <i className='bx github2 bxl-github'></i>
                 GitHub
