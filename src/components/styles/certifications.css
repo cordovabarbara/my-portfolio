@@ -1,0 +1,74 @@
+
+.certifications__box{
+    display: flex;
+    gap:2em;
+    margin-top: 2.5em;
+}
+.certificacions__content{
+    height: 745px;
+    width: 2px;
+    background-color: rgb(86, 14, 146);
+}
+
+.certificacions__items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60px;
+}
+
+.bxs-graduation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    border-radius: 100%;
+    height: 42px;
+    width: 45px;
+    background-color:  rgb(86, 14, 146);
+}
+
+.certification__info{
+    margin-top: 1em;
+    display: flex;
+    gap: 3em;
+    flex-direction: column;
+}
+
+.certifications__title{
+    color: rgba(128, 255, 0, 0.884);
+    text-align:start;
+}
+
+.certifications__subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    border-radius: 1em;
+    width: 10em;
+    height: 2em;
+    color: white;
+    margin-top: -3em;
+    background-color:  rgba(221, 37, 181, 0.39);
+
+}
+
+.certifications__text{
+    font-size: 15px;
+    text-align: justify;
+    word-spacing: 0.3em;
+    line-height: 1.5rem;
+    margin-top: -2em;
+    
+}
+@media (min-width: 767px){
+    .certifications__box{
+        display: flex;
+        margin: 2em 8em 1em 10em;
+    }
+    .certificacions__content{
+        height: 490px;
+}
+}

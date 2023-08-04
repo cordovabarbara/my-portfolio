@@ -3,9 +3,9 @@ import "./styles/skills.css";
 const Skills = () => {
     return (
         <div className="skills__box" id="skills">
-            <span className="title__sk">Skills</span>
+            <span className="title__sk" >Skills</span>
             <span className="second__title">Lenguajes de Programación</span>
-            <div className="skills__general">
+            <div className="skills__general" data-aos="flip-right">
                 <div className="bx__html">
                     <i className="bx bxl-html5"></i>
                     HTML5
@@ -22,7 +22,7 @@ const Skills = () => {
                 </div>
             </div>
             <span className="second__title">Frameworks y Librerias</span>
-            <div className="skills__general">
+            <div className="skills__general" data-aos="flip-right">
             <div className="bx__react">
             <i className='bx bxl-react'></i>
                 React
@@ -34,7 +34,7 @@ const Skills = () => {
             </div>
 
             <span className="second__title">Otras Tecnologías</span>
-            <div className="skills__general">
+            <div className="skills__general" data-aos="flip-right">
             <div className="bx__git">
             <i className='bx github2 bxl-github'></i>
                 GitHub
