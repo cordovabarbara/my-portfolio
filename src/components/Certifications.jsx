@@ -30,7 +30,7 @@ const Certifications = () => {
       <span className='certifications__title' >Back-End Node</span>
       </a>
       <span className='certifications__subtitle'>Julio - 2023</span>
-      <p className='certifications__text'> Se obtuviero las habilidades paraconstruir una aplicación desde el servidor con Node y Express desde 0 hasta el despliegue en un servidor. Tendrá la habilidad de realizar una API Rest usando una base de datos relacional, autenticación de usuarios.</p>
+      <p className='certifications__text'> Se obtuviero las habilidades para construir una aplicación desde el servidor con Node y Express desde 0 hasta el despliegue en un servidor. Se obtuvieron las habilidades para realizar una API Rest usando una base de datos relacional, autenticación de usuarios.</p>
           </article>
       </div>
     </div>
