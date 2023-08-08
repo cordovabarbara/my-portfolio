@@ -39,10 +39,7 @@ const Banner = () => {
           </div>
           <img className='banner__img' src={img1} alt=''></img>
       </div>
-
-          
     </>
-
   )
 }
 
