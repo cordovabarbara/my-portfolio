@@ -1,24 +1,22 @@
 
-
 .navbar {
-
   position: sticky;
-  bottom: 0em;
+  bottom: 1em;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
- 
 }
 .navbar__list {
-  padding: 0.5em;
+  padding: 0.6em;
   border-radius: 0.8em;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1.7em;
+  gap: 1.5em;
   font-size: 28px;
   backdrop-filter: blur(50px);
-  background-color: rgba(241, 63, 217, 0.068);
+  background-color: #8529af27
 }
 
 .navbar__item{
