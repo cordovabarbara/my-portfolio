@@ -1,14 +1,20 @@
+.projects__section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}
 .projects{
-display: flex;
-flex-direction: column;
-gap: 1em;
-justify-content: center;
-align-items: center;
-gap: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    display: inline-block;
+    width: 400px;
 }
 
 .projects__title{
-    margin-top: 2em;
     color: rgb(221, 37, 181);
     font-size: 28px;
     font-weight: bold;
@@ -16,22 +22,69 @@ gap: 2em;
     text-transform:uppercase;
 }
 
+.project__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 0.4em;
+    line-height: 1.5rem;
+    gap:1em;
+    width: 400px;
+    height: 232px;
+    color: white;
+    background-color: rgba(147, 20, 226, 0.801);
+    position: absolute;
+    top: 3em;
+    left: 0;
+    opacity: 0;
+    z-index: 2;
+    transition: opacity 0.4s ease;
+}
+
+.project__icons{
+    display: flex;
+    gap: 1em;
+    font-size: 35px;
+}
+
+.project__text:hover{
+    opacity: 1;
+}
 .projects__box{
     margin-top: 3em;
 }
-
 .projects__img{
-    width: 340px;
-    height: 210px;
+    display: block;
+    width: 400px;
+    height: 100%;
     object-fit: cover;
+    z-index: 1;
+}
+.projects__img:hover{
+    opacity: 0;
 }
 
 @media (min-width: 767px){
     .projects__box{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         gap: 2.5em;
         justify-content: center;
-        flex-wrap: wrap;
+        align-items: center;
+    }
+    .projects__img{
+        width: 550px;
+        height: 100%;
+        object-fit: cover;
+    }
+    .project__text{
+        width: 550px;
+        height: 320px;
+        top: 3em;
+        left: -4.65em;
+        padding: 1em;
+        word-spacing: 0.5em;
+        line-height: 1.8rem;
     }
 }

@@ -1,7 +1,7 @@
 
 
 .navbar {
-  margin-top: 1em;
+
   position: sticky;
   bottom: 0em;
   display: flex;
@@ -18,7 +18,7 @@
   gap: 1.7em;
   font-size: 28px;
   backdrop-filter: blur(50px);
-  background-color: rgba(241, 63, 218, 0.137);
+  background-color: rgba(241, 63, 217, 0.068);
 }
 
 .navbar__item{
