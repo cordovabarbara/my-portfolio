@@ -14,8 +14,8 @@ const Projects = () => {
       peliculas, 
       Tecnologías: Express, Node.js, Sequelize, Postman, React, CSS.</p>
       <div className='project__icons'>
-      <i className='bx bxl-github'></i>
-      <i className='bx bx-link'></i>
+      <a href="https://github.com/cordovabarbara/movie-app-testing/tree/main/src"><i className='bx bxl-github'></i></a> 
+      <a href="https://movie-app-barbara-cordova.netlify.app/"><i className='bx bx-link'></i></a>
       </div>
       </article>
       <div className='projects__box'>
