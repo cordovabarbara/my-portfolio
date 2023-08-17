@@ -40,6 +40,7 @@ const Banner = () => {
           <img className='banner__img' src={img1} alt=''></img>
           <article className='fly__icons'>
           <i className='bx bxs-star'></i>
+          <i className='bx bxs-rocket' ></i>
           <i className='bx bxs-planet'></i>
           <i className='bx bxs-moon'></i>
           </article>
