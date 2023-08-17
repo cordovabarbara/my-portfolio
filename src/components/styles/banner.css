@@ -203,8 +203,12 @@ h3{
         transform: translate(200%, -100%) rotate(360deg);
         color:  rgba(121, 16, 34, 0.541)
     }
+
+    75%{
+      opacity: 0;
+  }
       100% {
-        transform: translate(-600%, -600%) rotate(360deg);
+        transform: translate(-500%, -600%) rotate(360deg);
         opacity: 0;
         color: rgba(221, 147, 37, 0.356);
       }

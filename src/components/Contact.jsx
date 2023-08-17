@@ -1,19 +1,45 @@
 import "./styles/contact.css";
+import { useForm, ValidationError } from '@formspree/react';
 
 
-
-const Contact = () => {
+function ContactForm() {
+  const [state, handleSubmit] = useForm("xpzgplja");
+  if (state.succeeded) {
+      return <p className="form__ty">¡Gracias por Escribir!</p>;
+  }
   return (
-    <div className="title__cont" id='contact'>Contactame
-      <form className="contact__form" action="https://formspree.io/f/xpzgplja" method="POST">
-        <input className="input__name" type="text" placeholder="Tu Nombre"></input>
-        <input className="input__email" type="email" placeholder="Tu Email"></input>
-        <input className="input__msj" type="text" placeholder="Tu Mensaje" ></input>
-        <button className="btn__submit">Submit</button>
-      </form>
-      
-    </div>
-  )
+    <>
+      <div id='contact' className="title__cont">Contactame</div>
+      <article className='contact__form'>
+      <form className="form__box" onSubmit={handleSubmit}>
+      <label htmlFor="email">
+      </label>
+      <input className="input__email" placeholder="correo"
+        id="email"
+        type="email" 
+        name="email"
+      />
+      <ValidationError 
+        prefix="Email" 
+        field="email"
+        errors={state.errors}
+      />
+      <textarea className="input__msj" placeholder="mensaje"
+        id="message"
+        name="message"
+      />
+      <ValidationError 
+        prefix="Message" 
+        field="message"
+        errors={state.errors}
+      />
+      <button className="btn__submit" type="submit" disabled={state.submitting}>
+        Submit
+      </button>
+    </form>
+    </article>
+    </>
+  );
 }
 
-export default Contact
+export default ContactForm

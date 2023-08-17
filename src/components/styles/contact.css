@@ -1,10 +1,11 @@
 .title__cont{
-    padding: 2em;
+   
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 2.5em;
+    margin-top: 4em;
+    margin-bottom: 1em;
     font-size: xx-large;
     color: rgb(9, 189, 174);
     letter-spacing: 0.2em;
@@ -12,35 +13,62 @@
 }
 
 .contact__form{
-    width: 400px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    margin-top: 1em;
-    gap:2em;
+    margin-top: 0.5em;
+    gap: 2em;
+    flex-wrap: wrap;
+    
 }
-
-.input__name{
-    height: 50px;
+.form__box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5em;
 }
-
 .input__email{
+    width: 100%;
     height: 40px;
 }
 
 .input__msj{
-    height: 100px;
+    width: 100%;
+    height: 130px;
 }
 
 .btn__submit{
-    width:auto;
+    width: 100%;
     font-weight: bold;
     padding: 1em;
+    margin-bottom: 1em;
     border-radius: 5em;
     background: rgb(74,226,214);
     background: radial-gradient(circle, rgb(74, 226, 218) 13%, rgb(208, 72, 241) 100%);
 }
 
 .btn__submit:hover{
-
     color: rgb(221, 37, 181);
+}
+
+.form__ty{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.2em;
+    margin-top: 6em;
+    margin-bottom: 3em;
+    color: rgb(221, 37, 181);
+    font-size: 35px;
+}
+
+@media (min-width: 767px){
+    .form__box{
+        width: 60%;
+        height: 100%;
+    }
 }
