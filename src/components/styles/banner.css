@@ -14,10 +14,12 @@
 
 .title__banner{
     color: rgb(221, 37, 181);
+    z-index: 999;
 }
 
 .title__span{
     color: rgb(9, 189, 174);
+    z-index: 999;
 }
 
 .icons__banner{
@@ -27,6 +29,7 @@
     font-size: 40px;
     gap: 1em;
     color:  rgb(77, 1, 177);
+    z-index:999;
 }
 
 .bxl-github1:hover{
@@ -132,11 +135,26 @@ h3{
   position: absolute;
   
 }
-
 .banner__img{
   margin-top: 5em;
-    width: 380px;
+  width: 380px;
+  z-index: 999;
 }
+.fly__icons{
+  position: absolute;
+  display: none;
+}
+
+.bxs-star{
+  display: none;
+}
+.bxs-planet{
+  display: none;
+}
+.bxs-moon{
+  display: none;
+}
+
 
 @media (min-width: 767px){
     .banner{
@@ -173,4 +191,98 @@ h3{
       margin-left: 2em;
       width: 360px;
     }
-}
+    .fly__icons{
+      display: inline-block;
+    }
+
+    .bxs-moon{
+      color:  rgba(122, 86, 6, 0.623);
+      transform: translateX(200%);
+      position: absolute;
+      font-size: 30px;
+      display: inline-block;
+    }
+
+    @keyframes fly_moon{
+      0% {
+        transform: translate(-700%, 500%) rotate(360deg);
+        opacity: 3;
+        color:  rgba(127, 6, 151, 0.274);
+      }
+      50%{
+        transform: translate(300%, 100%) rotate(-360deg);
+        color:  rgba(121, 16, 34, 0.541)
+    }
+      100% {
+        transform: translate(-600%, -500%) rotate(360deg);
+        opacity: 0;
+        color: rgba(221, 147, 37, 0.356);
+      }
+    }
+    .bxs-moon {
+      animation: fly_moon 4s ease-in-out infinite;
+    }
+    }
+
+
+    .bxs-planet{
+      color:  rgba(121, 16, 34, 0.479);
+      transform: translateX(200%);
+      position: absolute;
+      font-size: 40px;
+      display: inline-block;
+      
+    }
+    @keyframes fly_planet{
+      0% {
+        transform: translate(700%, 500%) rotate(360deg);
+        opacity: 3;
+        color:  rgba(127, 6, 151, 0.274);
+      }
+      50%{
+        transform: translate(300%, 100%) rotate(-360deg);
+        color:  rgba(121, 16, 34, 0.541)
+    }
+      100% {
+        transform: translate(-600%, -500%) rotate(360deg);
+        opacity: 0;
+        color: rgba(221, 147, 37, 0.356);
+      }
+    }
+    .bxs-planet {
+      animation: fly_planet 4s ease-in-out infinite;
+    }
+    
+
+
+    .bxs-star {
+      position: absolute;
+      bottom: 20%;
+      left: 40%;
+      transform: translateX(200%);
+      width: 60px;
+      height: 60px;
+      box-shadow: 0 0 10px transparent;
+      color:  rgb(131, 71, 170);
+      z-index: 0;
+      display: block;
+    }
+    @keyframes fly_stars {
+      0% {
+        transform: translate(700%, -200%) rotate(-400deg);
+        opacity: 3;
+        color: rgb(55, 0, 255);
+      }
+      50%{
+        transform: translate(100%, -700%) rotate(300deg);
+        color: rgba(221, 147, 37, 0.356);
+    }
+      100% {
+        transform: translate(-600%, -500%) rotate(-100deg);
+        opacity: 0;
+      }
+    }
+    .bxs-star {
+      animation: fly_stars 4s ease-in-out infinite;
+    }
+
