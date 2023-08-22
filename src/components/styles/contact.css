@@ -68,7 +68,16 @@
 
 @media (min-width: 767px){
     .form__box{
-        width: 60%;
-        height: 100%;
+        width: 70%;
+    }
+    .input__email{
+        width: 70%;
+    }
+    
+    .input__msj{
+        width: 70%;
+    }
+    .btn__submit{
+        width: 70%;
     }
 }

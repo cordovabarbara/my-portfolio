@@ -2,7 +2,7 @@ import React from 'react'
 import {TypeAnimation} from 'react-type-animation'
 import "./styles/banner.css";
 import img1 from '/public/img1.png'
-import Barbara_Cordova_CV from '/public/Barbara_Cordova_CV.pdf'
+import Barbara_Cordova_CV from '/public/barbara_cordova_cv.pdf'
 
 const openCVInNewWindow = () => {
   window.open(Barbara_Cordova_CV, '_blank');
