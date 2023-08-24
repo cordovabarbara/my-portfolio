@@ -9,8 +9,8 @@ import Certificacions from './components/Certifications'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
 
-function App() {
 
+function App() {
   return (
   <div>
     <Header/>
@@ -21,7 +21,6 @@ function App() {
     <Projects/>
     <Contact/>
     <Navbar/>
-
   </div>
   )
 }

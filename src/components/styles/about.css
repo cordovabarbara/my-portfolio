@@ -18,12 +18,12 @@
     letter-spacing: 0.2em;
     margin-top: 4em;
     text-transform:uppercase;
-    padding-top: 1em;
+    padding-top: 2em;
    
 }
 
 .about__img{
-    margin-top: 2em;
+    margin-top: 3em;
     width: 285px;
 }
 
@@ -34,7 +34,7 @@
     text-align: justify;
     word-spacing: 0.6em;
     line-height: 2rem;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
     color: var(--text);
 }
 
