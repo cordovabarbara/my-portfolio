@@ -18,7 +18,7 @@ const Certifications = () => {
           <span className='certifications__title' >Fundamentos de Desarrollo Web | Academlo</span>
           </a>
       <span className='certifications__subtitle'>Marzo - 2023</span>
-      <p className='certifications__text'>Se obtuviero las habilidades necesarias para desarrollar de manera correcta la parte visual de un sitio web responsivo sin utilizar librerías/frameworks, así como agregar contenido dinámico con javascript.</p>
+      <p className='certifications__text'>Se obtuvieron las habilidades necesarias para desarrollar de manera correcta la parte visual de un sitio web responsivo sin utilizar librerías/frameworks, así como agregar contenido dinámico con javascript.</p>
 
       <a className='certifications__title' href='https://certificates.academlo.com/en/verify/64833930757310'>
       <span className='certifications__title'>Desarrollo de Aplicaciones Web con React | Academlo</span>
@@ -30,7 +30,7 @@ const Certifications = () => {
       <span className='certifications__title' >Back-End Node | Academlo</span>
       </a>
       <span className='certifications__subtitle'>Julio - 2023</span>
-      <p className='certifications__text'> Se obtuviero las habilidades para construir una aplicación desde el servidor con Node y Express desde 0 hasta el despliegue en un servidor. Se obtuvieron las habilidades para realizar una API Rest usando una base de datos relacional, autenticación de usuarios.</p>
+      <p className='certifications__text'> Se obtuvieron las habilidades para construir una aplicación desde el servidor con Node y Express desde cero hasta el despliegue en un servidor. Se obtuvieron las habilidades para realizar una API Rest usando una base de datos relacional, autenticación de usuarios.</p>
           </article>
       </div>
     </div>

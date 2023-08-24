@@ -28,7 +28,7 @@ const Banner = () => {
             2000,
             'Explora mi portafolio.',
             2000,
-            'Empezemos un nuevo proyecto',
+            'Empezemos un nuevo proyecto.',
             2000,
             ]}
             wrapper="h3"
