@@ -9,7 +9,7 @@
 }
 
 .title__about{
-    color: rgb(221, 37, 181);
+    color: var(--titles);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,6 +35,7 @@
     word-spacing: 0.6em;
     line-height: 2rem;
     margin-bottom: 2em;
+    color: var(--text);
 }
 
 @media (min-width: 767px){

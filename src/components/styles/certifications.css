@@ -22,7 +22,7 @@
     justify-content: center;
     align-items: center;
     font-size: 30px;
-    color: white;
+    color: var(--text);
     border-radius: 100%;
     height: 42px;
     width: 45px;
@@ -37,7 +37,7 @@
 }
 
 .certifications__title{
-    color: rgba(128, 255, 0, 0.884);
+    color: var(--certifications);
     text-align:start;
 }
 
@@ -49,9 +49,9 @@
     border-radius: 1em;
     width: 10em;
     height: 2em;
-    color: white;
+    color: var(--text);
     margin-top: -3em;
-    background-color:  rgba(221, 37, 181, 0.39);
+    background-color: var(--titles);
 
 }
 
@@ -61,6 +61,7 @@
     word-spacing: 0.3em;
     line-height: 1.5rem;
     margin-top: -2em;
+    color: var(--text);
     
 }
 @media (min-width: 767px){

@@ -13,12 +13,13 @@
 }
 
 .title__banner{
-    color: rgb(221, 37, 181);
+    color: var(--titles);
     z-index: 999;
+    
 }
 
 .title__span{
-    color: rgb(9, 189, 174);
+    color: var(--titles2);
     z-index: 999;
 }
 
@@ -28,7 +29,7 @@
     align-items: center;
     font-size: 40px;
     gap: 1em;
-    color:  rgb(77, 1, 177);
+    color: var(--buttons);
     z-index:999;
 }
 
@@ -126,10 +127,25 @@
 }
 
 h3{
-    color: rgb(131, 71, 170);
-   
+    color: var(--text);
+    animation: animator 5s infinite linear ;
 }
-.title__animation{
+@keyframes animator {
+  0%,
+  100% {
+    color: rgb(253, 253, 253);
+  }
+  25%,
+  75% {
+    color: rgb(255, 255, 255);;
+  }
+  50% {
+    color: rgb(79, 234, 245);
+  }
+}
+
+
+.title__animation {
   margin-top: 6.5em;
   font-size: 22px;
   position: absolute;

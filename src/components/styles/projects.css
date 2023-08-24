@@ -6,7 +6,7 @@
 }
 
 .project__title{
-    color: rgb(221, 37, 181);
+    color: var(--titles);
     font-size: 28px;
     font-weight: bold;
     letter-spacing: 0.2em;

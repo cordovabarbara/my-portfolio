@@ -9,8 +9,7 @@
     letter-spacing: 3px;
     padding: 1em;
     border-radius: 5em;
-    background: rgb(74,226,214);
-    background: radial-gradient(circle, rgba(74,226,214,1) 13%, rgba(188,148,241,1) 100%);
+    background: var(--buttons);
 }
 
 .btn__contact:hover{

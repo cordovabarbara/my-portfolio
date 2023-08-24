@@ -34,7 +34,7 @@ function ContactForm() {
         errors={state.errors}
       />
       <button className="btn__submit" type="submit" disabled={state.submitting}>
-        Submit
+        Enviar Mensaje
       </button>
     </form>
     </article>
