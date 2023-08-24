@@ -2,10 +2,10 @@ import React from 'react'
 import {TypeAnimation} from 'react-type-animation'
 import "./styles/banner.css";
 import img1 from '/public/img1.png'
-import barbara_cordova_cv from '/barbara_cordova_cv.pdf'
+import barbaracordovacv from '/public/barbaracordovacv.pdf'
 
 const openCVInNewWindow = () => {
-  window.open(barbara_cordova_cv, '_blank');
+  window.open(barbaracordovacv, '_blank');
 };
 
 const Banner = () => {
