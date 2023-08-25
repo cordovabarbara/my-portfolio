@@ -7,7 +7,7 @@ const Certifications = () => {
         <div className='certifications'> 
         <div className='certifications__box'>
           <section className='certificacions__items'>
-          <i class='bx bxs-graduation'></i>
+          <i className='bx bxs-graduation'></i>
           <div className='certificacions__content' data-aos="fade-up"
      data-aos-duration="2800"></div>
           </section>

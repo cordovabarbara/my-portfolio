@@ -15,9 +15,9 @@ const Banner = () => {
       <div className='banner__2'>
       <h1 className='title__banner'> Barbara <span className='title__span'>Cordova</span></h1>
       <div className='icons__banner'>
-          <a href='https://github.com/cordovabarbara'><i class='bx bxl-github1 bxl-github'></i></a>
-          <a href='https://linkedin.com/in/barbara-cordova-aliendo'><i class='bx bxl-linkedin-square'></i></a>
-          <a href='mailto:aliendocordova@gmail.com'><i class='bx bxl-gmail' ></i></a>
+          <a href='https://github.com/cordovabarbara'><i className='bx bxl-github1 bxl-github'></i></a>
+          <a href='https://linkedin.com/in/barbara-cordova-aliendo'><i className='bx bxl-linkedin-square'></i></a>
+          <a href='mailto:aliendocordova@gmail.com'><i className='bx bxl-gmail' ></i></a>
           <i className='bx bx-file' onClick={openCVInNewWindow}></i>
           <div className='title__animation'>
           <TypeAnimation

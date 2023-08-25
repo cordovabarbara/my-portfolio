@@ -15,19 +15,20 @@
     margin-bottom: 1em;
     padding-top: 1em;
 }
-
-.project__slider{
+.project__principal{
     display: flex;
-    flex-direction: column;
-    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    width: 100%;
+    
 }
 
-.project__imgs{
-    width: 380px;
+.project__img{
+    width: 400px;
     height: 100%;
     object-fit: cover;
-    
-    
 }
 
 

@@ -8,11 +8,15 @@ import About from './components/About'
 import Certificacions from './components/Certifications'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
+import ParticlesBack from './components/config/ParticlesBack'
 
 
-function App() {
+
+
+function App({init}) {
   return (
   <div>
+    <ParticlesBack/>
     <Header/>
     <Banner />
     <About />
