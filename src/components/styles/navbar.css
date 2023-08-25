@@ -18,7 +18,8 @@
   gap: 1.5em;
   font-size: 28px;
   backdrop-filter: blur(50px);
-  background-color: #a03ece27
+  background-color: #a03ece27;
+  color: var(--icons);
 }
 
 .navbar__item{

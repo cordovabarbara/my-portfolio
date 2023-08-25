@@ -13,7 +13,7 @@ import ParticlesBack from './components/config/ParticlesBack'
 
 
 
-function App({init}) {
+function App() {
   return (
   <div>
     <ParticlesBack/>

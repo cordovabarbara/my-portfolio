@@ -10,7 +10,7 @@ const ParticlesBack = () => {
        loadFull(engine)
      },[])
   return (
-    <div>
+    <div className='partciles_bg'>
         <Particles
     /*id="tsparticles"*/
     options={paticlesConfig}

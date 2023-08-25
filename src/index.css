@@ -3,9 +3,10 @@
   --titles:rgb(221, 37, 181);
   --titles2: rgb(9, 189, 174);
   --background: rgb(128, 98, 214);
-  --img-background: rgba(161, 23, 131, 0.623);
+  --img-background: rgba(151, 26, 124, 0.486);
   --buttons:rgb(150, 93, 226);
   --certifications: rgba(128, 255, 0, 0.884);
+  --icons:rgb(0, 0, 0);
 }
 
 html{
@@ -53,9 +54,7 @@ button{
   cursor: pointer;
 }
 
-#particles-js{
-  height: 100vh;
-  width: 100%;
+.partciles_bg{
   position: fixed;
-  z-index: -1;
+  z-index: -9999;
 }

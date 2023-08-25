@@ -11,7 +11,7 @@ const paticlesConfig = {
         "value": "#575657"
       },
       "shape": {
-        "type": "star",
+        "type": "circle",
         "stroke": {
           "width": 0,
           "color": "#ffffff"
@@ -36,25 +36,25 @@ const paticlesConfig = {
         }
       },
       "size": {
-        "value": 6,
+        "value": 4,
         "random": true,
         "anim": {
-          "enable": false,
-          "speed": 40,
+          "enable": true,
+          "speed": 10,
           "size_min": 0.1,
           "sync": false
         }
       },
       "line_linked": {
-        "enable": false,
-        "distance": 150,
+        "enable": true,
+        "distance": 160,
         "color": "#ffffff",
-        "opacity": 0.665416005259192,
+        "opacity": 0.1,
         "width": 1
       },
       "move": {
         "enable": true,
-        "speed": 7,
+        "speed": 5,
         "direction": "none",
         "random": false,
         "straight": false,
