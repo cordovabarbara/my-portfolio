@@ -16,6 +16,8 @@ const Projects = () => {
     setSelectedImage(null);
     setShowModal(false);
   };
+
+  const handleModalContainer = e => e.stopPropagation()
   
   return (
     <div className='project__box'>
@@ -26,16 +28,13 @@ const Projects = () => {
     </div>
     {showModal && (
          <div className={`modal ${showModal ? 'active' : ''}`} onClick={closeModal}>
-          <div className="modal-content">
+          <div className="modal-content" onClick={handleModalContainer}>
             <span className="close" onClick={closeModal}>&times;</span>
             <img className="modal-image" src={selectedImage} alt="" />
           </div>
         </div>
     )}
     </div>
- 
- 
-  
   )
 }
 

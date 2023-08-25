@@ -15,7 +15,6 @@
 .title__banner{
     color: var(--titles);
     z-index: 999;
-    
 }
 
 .title__span{
@@ -32,6 +31,7 @@
     color: var(--buttons);
     z-index:999;
 }
+
 
 .bxl-github1:hover{
     animation-name: bounce;
