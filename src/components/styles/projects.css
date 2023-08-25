@@ -22,13 +22,84 @@
     align-items: center;
     gap: 1em;
     width: 100%;
-    
+    position: relative;
 }
 
 .project__img{
     width: 400px;
     height: 100%;
     object-fit: cover;
+    cursor:zoom-in;
 }
 
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Inicialmente ocultar el modal */
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0s linear 0.5s;
+    z-index: 1;
+  }
+
+  .modal.active {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s ease;
+  }
+
+.modal-content{
+    background-color: rgba(39, 38, 38, 0.411);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    max-width: 100%;
+    max-height: 90%;
+    transform: scale(1); /* Inicialmente un poco reducido */
+    opacity: 0; /* Inicialmente ocultar el contenido */
+    transition: transform 0.5s ease, opacity 0.5s ease;
+  }
+
+  .modal.active .modal-content {
+    transform: scale(1); /* Mostrar el contenido a tamaño normal */
+    opacity: 1; /* Mostrar el contenido cuando el modal está activo */
+  }
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 27px;
+    color: var(--titles);
+    background-color: var(--close-btn);
+    border-radius: 100%;
+    height: 28px;
+    aspect-ratio: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-image {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
+
+  @media (min-width: 767px){
+    .modal-image {
+        width: 100%;
+        height: 480px;
+   
+      }
+
+}
 
