@@ -1,41 +1,54 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import "./styles/projects.css";
-import images from "../utils/images"
-
+import imagens from '../utils/imagens';
+import projectsData from "../utils/projectsData";
 
 const Projects = () => {
   const [showModal, setShowModal] = useState(false);
-  const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedProject, setSelectedProject] = useState(null);
 
-  const openModal = (images) => {
-    setSelectedImage(images);
+  const openModal = (project) => {
+    setSelectedProject(project);
     setShowModal(true);
   };
 
   const closeModal = () => {
-    setSelectedImage(null);
+    setSelectedProject(null);
     setShowModal(false);
   };
 
-  const handleModalContainer = e => e.stopPropagation()
-  
+  const handleModalContainer = (e) => e.stopPropagation();
   return (
     <div className='project__box'>
-    <span className='project__title' id='projects'>Proyectos</span>
-    <div  className='project__principal'>
-      <img className='project__img'src={images.image1} alt="" onClick={() => openModal(images.image1)}/>
-      <img className='project__img' src={images.imagen2} alt="" onClick={() => openModal(images.imagen2)}/>
-    </div>
-    {showModal && (
-         <div className={`modal ${showModal ? 'active' : ''}`} onClick={closeModal}>
+      <span className='project__title' id='projects'>Proyectos</span>
+      <div className='project__principal'>
+        {projectsData.map((project, index) => (
+          <div
+            key={index}
+            className='project__item'
+            onClick={() => openModal(project)}
+          >
+            <img className='project__img' src={project.image} alt="" />
+          </div>
+        ))}
+      </div>
+      {showModal && (
+        <div className={`modal ${showModal ? 'active' : ''}`} onClick={closeModal}>
           <div className="modal-content" onClick={handleModalContainer}>
-            <span className="close" onClick={closeModal}>&times;</span>
-            <img className="modal-image" src={selectedImage} alt="" />
+            <button className="close-btn" onClick={closeModal}>&times;</button>
+            <img className="modal-image" src={selectedProject.image} alt="" />
+            <div className='project-description'>
+              <h3 className='project__tt'>{selectedProject.title}</h3>
+              <p className='modal-description'>{selectedProject.description}</p>
+              <p className='modal-description'>Tecnologias: {selectedProject.tecnologies}</p>
+              <a href={selectedProject.demo}> <i className='bx bxs-binoculars'></i></a>
+              <a href={selectedProject.git}> <i class='bx bxl-github'></i></a>
+            </div>
           </div>
         </div>
-    )}
+      )}
     </div>
-  )
+  );
 }
 
-export default Projects
+export default Projects;

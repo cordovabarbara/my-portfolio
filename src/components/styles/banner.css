@@ -154,7 +154,7 @@ h3{
 .banner__img{
   margin-top: 5em;
   width: 360px;
-  z-index: 999;
+  z-index: 1;
   background-color: var(--img-background);
   border-radius: 200px;
   height: 385px;
