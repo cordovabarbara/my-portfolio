@@ -5,12 +5,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   z-index: 999;
   overflow: hidden;
 
 }
 .navbar__list {
+  margin-top: 1em;
+  width: 400px;
   padding: 0.6em;
   border-radius: 0.8em; 
   display: flex;
