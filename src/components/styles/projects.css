@@ -161,15 +161,13 @@
       flex-direction: column;
       gap: 2em;
       margin-top: 1em;
-      font-size: 12px;
       text-align:left;
     }
     .modal__p{
       font-size: 15px;
       text-align: center;
       justify-content: center;
-      right: 28px;
-      position: relative;
+
     }
 }
 
