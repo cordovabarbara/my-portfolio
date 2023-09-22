@@ -41,8 +41,10 @@ const Projects = () => {
               <h3 className='project__tt'>{selectedProject.title}</h3>
               <p className='modal-description'>{selectedProject.description}</p>
               <p className='modal-description'>Tecnologias: {selectedProject.tecnologies}</p>
-              <a href={selectedProject.demo}> <i className='bx bxs-binoculars'></i></a>
-              <a href={selectedProject.git}> <i class='bx bxl-github'></i></a>
+              <div className='modal-icons'> 
+              <a href={selectedProject.demo}> <i className='bx icons bxs-binoculars'></i><p className='modal__p'>Ver Demo</p></a>
+              <a href={selectedProject.git}> <i className='bx icons bxl-github'></i><p className='modal__p'>Ver Repositorio</p></a>
+              </div>
             </div>
           </div>
         </div>

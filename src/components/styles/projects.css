@@ -89,6 +89,30 @@
     line-height: 2em;
   }
 
+  .modal-icons a{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    gap: 1em;
+  }
+
+  .modal-icons{
+    display: flex;
+  }
+
+
+  .modal__p{
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    right: 28px;
+    position: relative;
+  }
+
+  .modal__p:hover{
+    color: var(--titles2);
+  }
+
 .close-btn {
     position: absolute;
     display: flex;
@@ -117,12 +141,16 @@
     .modal-image {
         width: 100%;
         height: 400px;
-   
       }
-    .modal-content{
+
+    .modal-content {
       display: flex;
       flex-direction: row;
       width: 1300px;
+    }
+    .project__img{
+      width: 100%;
+      height: 400px;
     }
     .project__tt{
       font-size: 25px;
