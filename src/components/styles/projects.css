@@ -83,7 +83,7 @@
   }
   .modal-description{
     margin-top: 1em;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 1.6em;
     text-align: left;
     line-height: 2em;
@@ -92,17 +92,17 @@
   .modal-icons a{
     display: flex;
     align-items: center;
-    font-size: 30px;
-    gap: 1em;
+    font-size: 25px;
+    margin-top: 0.5em;
+    gap: 1.2em;
   }
 
   .modal-icons{
     display: flex;
   }
 
-
   .modal__p{
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
     justify-content: center;
     right: 28px;
@@ -161,9 +161,15 @@
       flex-direction: column;
       gap: 2em;
       margin-top: 1em;
-      font-size: 15px;
+      font-size: 12px;
       text-align:left;
     }
-
+    .modal__p{
+      font-size: 15px;
+      text-align: center;
+      justify-content: center;
+      right: 28px;
+      position: relative;
+    }
 }
 
