@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .project__title{
@@ -20,16 +21,21 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 1em;
     width: 100%;
+    gap: 2em;
     position: relative;
+}
+.project__item{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .project__img{
-    width: 360px;
-    height: 100%;
-    object-fit: cover;
-    cursor:zoom-in;
+  width: 360px;
+  cursor:zoom-in;
 }
 
 .project_subtitle{
@@ -37,6 +43,10 @@
   font-size: 20px;
   letter-spacing: 0.2rem;
 }
+
+/********parte del modal************/
+
+
 .modal {
     position: fixed;
     top: 0;
@@ -149,9 +159,10 @@
       width: 1300px;
     }
     .project__img{
-      width: 100%;
-      height: 400px;
+      width: 600px;
+      height: 100%;
     }
+
     .project__tt{
       font-size: 25px;
       text-align: center;

@@ -9,10 +9,10 @@ const Certifications = () => {
           <section className='certificacions__items'>
           <i className='bx bxs-graduation'></i>
           <div className='certificacions__content' data-aos="fade-up"
-     data-aos-duration="2800"></div>
+     data-aos-duration="4000"></div>
           </section>
           <article className='certification__info' data-aos="fade-right"
-     data-aos-offset="400"
+     data-aos-offset="200"
      data-aos-easing="ease-in-sine">
           <a className='certifications__title' href='https://certificates.academlo.com/en/verify/39337999442068'>
           <span className='certifications__title' >Fundamentos de Desarrollo Web | Academlo</span>

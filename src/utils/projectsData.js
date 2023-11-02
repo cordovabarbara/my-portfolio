@@ -10,6 +10,15 @@ const projectsData = [
       git: 'https://github.com/cordovabarbara/weather-app.git'
      
     },
+    {
+      title: 'Pokedex',
+      description: 'En esta aplicacion podemos consultar el clima y cambiar de farenheit a centigrados y viceversa, adicionalmente podemos consultar el clima de otras ciudades, utilizando la barra de busqueda',
+      tecnologies: 'Javascript, React, CSS',
+      image: imagens.poke,
+      demo: 'https://barbara-cordova-weatherapp.netlify.app/',
+      git: 'https://github.com/cordovabarbara/weather-app.git'
+     
+    },
 
   ];
 

@@ -32,5 +32,5 @@
 }
 
 .navbar__item:hover{
-  color: #ffff;
+  color: var(--titles2);
 }

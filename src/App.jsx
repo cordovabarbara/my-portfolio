@@ -15,7 +15,7 @@ import ParticlesBack from './components/config/ParticlesBack'
 
 function App() {
   return (
-  <div>
+  <div className='app'>
     <ParticlesBack/>
     <Header/>
     <Banner />
