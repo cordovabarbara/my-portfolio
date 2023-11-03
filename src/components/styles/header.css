@@ -1,13 +1,14 @@
 .header{
-    margin-top: -1em;
     display: flex;
     flex-direction: row;
     justify-content: end;
+
 }
 
 .btn__contact{
     letter-spacing: 3px;
     padding: 1em;
+    margin: 2em;
     border-radius: 5em;
     background: var(--buttons);
 }

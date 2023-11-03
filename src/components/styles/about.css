@@ -5,6 +5,7 @@
     align-items: center;
     text-align: center;
     gap: 2em;
+    margin: 1em;
 
 }
 
@@ -36,6 +37,7 @@
     line-height: 2rem;
     margin-bottom: 1.5em;
     color: var(--text);
+    font-size: 13px;
 }
 
 @media (min-width: 767px){
@@ -47,5 +49,6 @@
     .about__txt{
         display: flex;
         margin-top: 2em;
+        font-size: 15px;
     }
 }
