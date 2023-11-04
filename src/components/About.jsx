@@ -1,5 +1,4 @@
 
-import perfil1 from '/public/perfil1.png'
 import "./styles/about.css";
 
 const About = () => {
@@ -7,7 +6,6 @@ const About = () => {
     <> 
     <h1 id='sobre-mi' className='title__about'>Sobre Mi</h1>
       <div className='about' data-aos="fade-right">
-        <img className="about__img" src={perfil1} alt=''></img>
           <div className='about__txt'>
       Soy Barbara Córdova, oriunda de Caracas, Venezuela, actualmente resido en Bogotá, Colombia.
     Tengo conocimientos en diversos lenguajes de programación como JavaScript, HTML, CSS, React; y actualmente me estoy capacitando en el desarrollo de aplicaciones moviles. 

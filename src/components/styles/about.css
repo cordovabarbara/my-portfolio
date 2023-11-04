@@ -5,22 +5,18 @@
     align-items: center;
     text-align: center;
     gap: 2em;
-    margin: 1em;
+    margin: 2em;
 
 }
 
 .title__about{
     color: var(--titles);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     font-size: 28px;
     font-weight: bold;
     letter-spacing: 0.2em;
-    margin-top: 4em;
+    margin-top: 8em;
     text-transform:uppercase;
-    padding-top: 2em;
-   
 }
 
 .about__img{
@@ -29,15 +25,15 @@
 }
 
 .about__txt{
-    width: 650px;
+    width: 640px;
     justify-content: center;
     align-items: center;
     text-align: justify;
-    word-spacing: 0.6em;
+    word-spacing: 0.7em;
     line-height: 2rem;
     margin-bottom: 1.5em;
     color: var(--text);
-    font-size: 13px;
+    font-size: 14px;
 }
 
 @media (min-width: 767px){
@@ -49,6 +45,9 @@
     .about__txt{
         display: flex;
         margin-top: 2em;
-        font-size: 15px;
+        font-size: 16px;
+        width: 700px;
+        word-spacing: 0.8em;
+        line-height: 2.3rem;
     }
 }

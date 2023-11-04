@@ -3,13 +3,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 22px;
-    margin-top: 1.8em;
+    font-size: 28px;
+    margin-top: 3em;
 }
 .banner__2{
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  gap: 2em;
 }
 
 .title__banner{
@@ -26,7 +26,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
+    font-size: 45px;
     gap: 1em;
     color: var(--buttons);
     z-index:999;
@@ -146,19 +146,12 @@ h3{
 
 
 .title__animation {
-  margin-top: 6.5em;
+  margin-top: 10em;
   font-size: 22px;
   position: absolute;
   
 }
-.banner__img{
-  margin-top: 5em;
-  width: 360px;
-  z-index: 1;
-  background-color: var(--img-background);
-  border-radius: 200px;
-  height: 385px;
-}
+
 
 
 @media (min-width: 767px){

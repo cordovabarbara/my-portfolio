@@ -1,14 +1,14 @@
 const paticlesConfig = {
     "particles": {
       "number": {
-        "value": 67,
+        "value": 60,
         "density": {
           "enable": true,
           "value_area": 1683.5826639087988
         }
       },
       "color": {
-        "value": "#575657"
+        "value": "#ffffff"
       },
       "shape": {
         "type": "circle",
@@ -29,32 +29,32 @@ const paticlesConfig = {
         "value": 0.32068241217310456,
         "random": false,
         "anim": {
-          "enable": false,
+          "enable": true,
           "speed": 1,
           "opacity_min": 0.1,
-          "sync": false
+          "sync": true
         }
       },
       "size": {
-        "value": 4,
+        "value": 2,
         "random": true,
         "anim": {
           "enable": true,
-          "speed": 10,
+          "speed": 6,
           "size_min": 0.1,
-          "sync": false
+          "sync": true
         }
       },
       "line_linked": {
         "enable": true,
         "distance": 160,
         "color": "#ffffff",
-        "opacity": 0.1,
-        "width": 1
+        "opacity": 0.2,
+        "width": 0.3
       },
       "move": {
         "enable": true,
-        "speed": 5,
+        "speed": 4,
         "direction": "none",
         "random": false,
         "straight": false,
