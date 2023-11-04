@@ -6,7 +6,7 @@ const Header = () => {
     <div className="header" id='home'>
       <Link to='contact'>
       <button className='btn__contact'>Contactame</button>
-       </Link>
+      </Link>
     </div>
   )
 }

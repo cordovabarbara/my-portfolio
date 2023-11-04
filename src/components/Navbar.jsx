@@ -1,49 +1,53 @@
-
 import { RxHome } from "react-icons/rx";
 import { VscChecklist } from "react-icons/vsc";
-import { BsBriefcase, BsChatRightText, BsPerson, BsMortarboard} from "react-icons/bs";
+import {
+  BsBriefcase,
+  BsChatRightText,
+  BsPerson,
+  BsMortarboard,
+} from "react-icons/bs";
 import { Link } from "react-scroll";
 import "./styles/navbar.css";
 
 const Navbar = () => {
   return (
-  <div className="navbar">
-    <ul className="navbar__list">
-      <Link to='home'>
-        <li className="navbar__item">
-          <RxHome />
-        </li>
-      </Link>
-
-        <Link to='sobre-mi'>
+    <div className="navbar">
+      <ul className="navbar__list">
+        <Link to="home">
           <li className="navbar__item">
-            <BsPerson/>
+            <RxHome />
           </li>
         </Link>
-        <Link to='skills'>
+
+        <Link to="sobre-mi">
+          <li className="navbar__item">
+            <BsPerson />
+          </li>
+        </Link>
+        <Link to="skills">
           <li className="navbar__item">
             <VscChecklist />
           </li>
         </Link>
-        <Link to='Certificacions'>
+        <Link to="Certificacions">
           <li className="navbar__item">
-            <BsMortarboard/>
+            <BsMortarboard />
           </li>
         </Link>
 
-        <Link to='projects'>
+        <Link to="projects">
           <li className="navbar__item">
             <BsBriefcase />
           </li>
-          </Link>
-        <Link to='contact'>
+        </Link>
+        <Link to="contact">
           <li className="navbar__item">
             <BsChatRightText />
           </li>
         </Link>
       </ul>
     </div>
-  )
-}
+  );
+};
 
 export default Navbar;
