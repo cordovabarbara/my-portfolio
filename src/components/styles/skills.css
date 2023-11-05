@@ -6,7 +6,6 @@
     gap: 2.5em;
     margin-top: 4em;
     padding-top: 2.5em;
-   
 }
 
 .skills__general{
@@ -17,7 +16,7 @@
 
 
 .title__sk{
-    color: rgb(221, 37, 181);
+    color: var(--titles);
     letter-spacing: 0.2em;
     font-size: 28px;
     font-weight: bold;

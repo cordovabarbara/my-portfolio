@@ -2,10 +2,20 @@
   display: flex;
   text-align: center;
   gap: 1em;
-  margin-top: 2.5em;
+  margin-top: 1em;
+}
+
+.title__certi{
+  padding-top: 2em;
+  margin-top: 5em;
+  color: var(--titles);
+  letter-spacing: 0.2em;
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .certificacions__content {
-  height: 860px;
+  height: 820px;
   width: 2px;
   background-color: rgb(86, 14, 146);
 }
@@ -63,12 +73,21 @@
   margin-top: -2em;
   color: var(--text);
 }
+
 @media (min-width: 767px) {
   .certifications__box {
     display: flex;
-    margin: 2em 8em 1em 10em;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 3em 8em 1em 10em;
   }
   .certificacions__content {
-    height: 490px;
+    height: 500px;
+  }
+
+  .certifications__text{
+    width: 700px;
   }
 }

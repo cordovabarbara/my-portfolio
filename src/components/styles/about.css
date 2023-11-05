@@ -15,8 +15,9 @@
     font-size: 28px;
     font-weight: bold;
     letter-spacing: 0.2em;
-    margin-top: 8em;
+    margin-top: 10em;
     text-transform:uppercase;
+    padding-top: 2em;
 }
 
 .about__img{

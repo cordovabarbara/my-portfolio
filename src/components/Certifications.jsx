@@ -3,7 +3,7 @@ import "./styles/certifications.css";
 const Certifications = () => {
   return (
     <>
-      <h1 id="Certificacions" className="title__about">
+      <h1 id="Certificacions" className="title__certi">
         Certificationes
       </h1>
       <div className="certifications">
