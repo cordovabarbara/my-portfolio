@@ -1,6 +1,7 @@
 import { TypeAnimation } from "react-type-animation";
 import "./styles/banner.css";
 import barbaracordovacv from "/public/barbaracordovacv.pdf";
+import perfil from "/public/imagen2.png"
 
 const openCVInNewWindow = () => {
   window.open(barbaracordovacv, "_blank");
@@ -44,6 +45,7 @@ const Banner = () => {
             </div>
           </div>
         </div>
+        <img className='banner__img' src={perfil} alt=''></img>
       </div>
     </>
   );
