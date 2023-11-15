@@ -20,20 +20,17 @@
     text-transform:uppercase;
 }
 
-.about__img{
-    width: 285px;
-}
 
 .about__txt{
     width: 640px;
     justify-content: center;
     align-items: center;
     text-align: justify;
-    word-spacing: 0.7em;
+    word-spacing: 0.4em;
     line-height: 2rem;
     margin-bottom: 1.5em;
     color: var(--text);
-    font-size: 14px;
+    font-size: 13px;
 }
 
 @media (min-width: 767px){
