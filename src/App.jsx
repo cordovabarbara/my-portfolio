@@ -9,6 +9,9 @@ import Certificacions from './components/Certifications'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
 import ParticlesBack from './components/config/ParticlesBack'
+import WhatsAppButton from './components/WhatsAppButton'
+
+
 
 
 
@@ -18,12 +21,14 @@ function App() {
   <div className='app'>
     <ParticlesBack/>
     <Header/>
+    <WhatsAppButton/>
     <Banner />
     <About />
     <Skills/>
     <Certificacions/>
     <Projects/>
     <Contact/>
+    <WhatsAppButton/>
     <Navbar/>
   </div>
   )

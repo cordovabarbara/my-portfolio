@@ -17,7 +17,7 @@
     color: white;
 }
 .btn__contact:hover{
-    animation-name: tilt;
+  animation-name: tilt;
   animation-duration: .4s;
   animation-timing-function: ease-in-out;
   animation-delay: 0s;

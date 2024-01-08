@@ -1,0 +1,44 @@
+.whatsapp{
+    position: fixed;
+    display: flex;
+
+    text-align: center;
+    align-items: center;
+    bottom: 9em;
+    right: 2em;
+    z-index: 999;
+
+}
+.what{
+
+    background-color: #25d3657c;
+    width: 75px;
+    height: 70px;
+    border-radius: 100%;
+    animation: what 2s infinite;
+}
+
+    @keyframes what {
+        0%, 100% {
+            box-shadow: 0 0 10px rgba(43, 175, 25, 0.63);
+          }
+          50% {
+            box-shadow: 0 0 10px rgb(255, 255, 255), 0 0 5px rgba(255, 255, 255, 0.6);
+          }
+      }
+
+.bxl-whatsapp{
+    font-size: 50px;
+    color: var(--text);
+    text-align: center;
+    align-items: center;
+}
+
+
+
+  @media (min-width: 767px){
+    .whatsapp{
+        right: 2em;
+        bottom: 3em;
+    }
+  }
