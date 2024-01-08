@@ -1,10 +1,9 @@
 .whatsapp{
     position: fixed;
     display: flex;
-
     text-align: center;
     align-items: center;
-    bottom: 9em;
+    bottom: 5em;
     right: 2em;
     z-index: 999;
 
@@ -12,8 +11,8 @@
 .what{
 
     background-color: #25d3657c;
-    width: 75px;
-    height: 70px;
+    width: 70px;
+    height: 62px;
     border-radius: 100%;
     animation: what 2s infinite;
 }
@@ -40,5 +39,9 @@
     .whatsapp{
         right: 2em;
         bottom: 3em;
+    }
+    .what{
+      width: 75px;
+      height: 75px;
     }
   }
