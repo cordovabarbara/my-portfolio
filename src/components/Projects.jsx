@@ -2,9 +2,11 @@ import "./styles/projects.css";
 import projectsData from "../utils/projectsData";
 import { useState } from "react";
 
+
 const Projects = () => {
   const [showModal, setShowModal] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
+  const [currentSlide, setCurrentSlide] = useState(0);
 
   const openModal = (project) => {
     setSelectedProject(project);
@@ -17,22 +19,33 @@ const Projects = () => {
   };
 
   const handleModalContainer = (e) => e.stopPropagation();
+
+  const handlePrevSlide = () => {
+    setCurrentSlide((prevSlide) => (prevSlide > 0 ? prevSlide - 1 : projectsData.length - 1))};
+
+    
+  const handleNextSlide = () => {
+    setCurrentSlide((prevSlide) => (prevSlide < projectsData.length - 1 ? prevSlide + 1 :0))};
+
   return (
     <div className="project__box">
       <span className="project__title" id="projects">
         Proyectos
       </span>
       <div className="project__principal">
+      <button  onClick={handlePrevSlide} ><i className='bx bx-left-arrow-alt'></i></button>
         {projectsData.map((project, index) => (
           <div
             key={index}
-            className="project__item"
-            onClick={() => openModal(project)}
-          >
+            className={`project__item ${index === currentSlide ? 'active' : ''}`}
+            onClick={() => openModal(project)}>
             <img className="project__img" src={project.image} alt="" />
           </div>
+          
         ))}
+        <button onClick={handleNextSlide}><i className='bx bx-right-arrow-alt' ></i> </button>
       </div>
+      
       {showModal && (
         <div
           className={`modal ${showModal ? "active" : ""}`}
