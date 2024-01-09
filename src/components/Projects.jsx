@@ -26,26 +26,29 @@ const Projects = () => {
     
   const handleNextSlide = () => {
     setCurrentSlide((prevSlide) => (prevSlide < projectsData.length - 1 ? prevSlide + 1 :0))};
-
   return (
     <div className="project__box">
       <span className="project__title" id="projects">
         Proyectos
       </span>
-      <div className="project__principal">
+      <div className="project__btn">
       <button  onClick={handlePrevSlide} ><i className='bx bx-left-arrow-alt'></i></button>
+      <div className="project__principal" >
+      
         {projectsData.map((project, index) => (
           <div
             key={index}
-            className={`project__item ${index === currentSlide ? 'active' : ''}`}
+            className="project__item" style={{ transform: `translateX(-${currentSlide * 100}%)` }}
             onClick={() => openModal(project)}>
             <img className="project__img" src={project.image} alt="" />
           </div>
           
         ))}
-        <button onClick={handleNextSlide}><i className='bx bx-right-arrow-alt' ></i> </button>
+
       </div>
-      
+      <button onClick={handleNextSlide}><i className='bx bx-right-arrow-alt' ></i> </button>
+      </div>
+
       {showModal && (
         <div
           className={`modal ${showModal ? "active" : ""}`}
