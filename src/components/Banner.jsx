@@ -1,7 +1,7 @@
 import { TypeAnimation } from "react-type-animation";
 import "./styles/banner.css";
 import barbaracordovacv from "/public/barbaracordovacv.pdf";
-import perfil from "/public/imagen2.png"
+import perfil from "/public/perfil.png"
 
 const openCVInNewWindow = () => {
   window.open(barbaracordovacv, "_blank");

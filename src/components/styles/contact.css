@@ -21,8 +21,13 @@
     margin-top: 0.5em;
     gap: 2em;
     flex-wrap: wrap;
-    
 }
+
+.contact__p{
+    font-size: 18px;
+    color: var(--text);
+}
+
 .form__box{
     width: 90%;
     height: 100%;

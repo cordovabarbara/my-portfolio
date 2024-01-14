@@ -8,6 +8,7 @@ const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
   const [currentSlide, setCurrentSlide] = useState(0);
 
+  //modal open and close
   const openModal = (project) => {
     setSelectedProject(project);
     setShowModal(true);
@@ -20,21 +21,21 @@ const Projects = () => {
 
   const handleModalContainer = (e) => e.stopPropagation();
 
+  //slide
   const handlePrevSlide = () => {
     setCurrentSlide((prevSlide) => (prevSlide > 0 ? prevSlide - 1 : projectsData.length - 1))};
 
-    
   const handleNextSlide = () => {
     setCurrentSlide((prevSlide) => (prevSlide < projectsData.length - 1 ? prevSlide + 1 :0))};
+
   return (
     <div className="project__box">
       <span className="project__title" id="projects">
         Proyectos
       </span>
       <div className="project__btn">
-      <button  onClick={handlePrevSlide} ><i className='bx bx-left-arrow-alt'></i></button>
+      <p className="btn__arrow"  onClick={handlePrevSlide} ><i className='bx bx-left-arrow-circle'></i></p>
       <div className="project__principal" >
-      
         {projectsData.map((project, index) => (
           <div
             key={index}
@@ -46,7 +47,7 @@ const Projects = () => {
         ))}
 
       </div>
-      <button onClick={handleNextSlide}><i className='bx bx-right-arrow-alt' ></i> </button>
+      <p className="btn__arrow" onClick={handleNextSlide}><i className='bx bx-right-arrow-circle' ></i></p>
       </div>
 
       {showModal && (
@@ -67,12 +68,10 @@ const Projects = () => {
               </p>
               <div className="modal-icons">
                 <a href={selectedProject.demo}>
-                  {" "}
                   <i className="bx icons bxs-binoculars"></i>
                   <p className="modal__p">Ver Demo</p>
                 </a>
                 <a href={selectedProject.git}>
-                  {" "}
                   <i className="bx icons bxl-github"></i>
                   <p className="modal__p">Ver Repositorio</p>
                 </a>

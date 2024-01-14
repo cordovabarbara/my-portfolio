@@ -12,6 +12,7 @@ function ContactForm() {
         Contactame
       </div>
       <article className="contact__form">
+        <p className="contact__p">Estoy aquí para tu proxímo proyecto</p>
         <form className="form__box" onSubmit={handleSubmit}>
           <label htmlFor="email"></label>
           <input
